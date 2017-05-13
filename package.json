@@ -8,6 +8,7 @@
   "license": "MIT",
   "scripts": {
     "start": "node -r dotenv/config src/index.js",
+    "server": "node src/index.js",
     "lint": "eslint ."
   },
   "dependencies": {
