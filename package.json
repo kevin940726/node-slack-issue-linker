@@ -7,8 +7,8 @@
   "author": "Kai Hao",
   "license": "MIT",
   "scripts": {
-    "start": "node -r dotenv/config src/index.js",
-    "server": "node src/index.js",
+    "dev": "node -r dotenv/config src/index.js",
+    "start": "node src/index.js",
     "lint": "eslint ."
   },
   "dependencies": {
