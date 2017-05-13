@@ -1,7 +1,7 @@
 {
   "name": "node-slack-issue-linker",
   "version": "0.1.0",
-  "description": "Slack issue linker written in Node.js",
+  "description": "Give me the links of issues!",
   "main": "src/index.js",
   "repository": "https://github.com/kevin940726/node-slack-issue-linker",
   "author": "Kai Hao",

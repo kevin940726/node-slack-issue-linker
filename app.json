@@ -1,0 +1,27 @@
+{
+  "name": "node-slack-issue-linker",
+  "description": "Give me the links of issues!",
+  "repository": "https://github.com/kevin940726/node-slack-issue-linker",
+  "website": "https://github.com/kevin940726/node-slack-issue-linker",
+  "keywords": ["node", "slack", "github", "issue", "bot"],
+  "env": {
+    "API_TOKEN": {
+      "description": "Slack oauth access token"
+    },
+    "BOT_TOKEN": {
+      "description": "Slack bot user oauth access token"
+    },
+    "HOST": {
+      "description": "Your host url, default to github url",
+      "value": "github"
+    },
+    "OWNER": {
+      "description": "Default Github owner/organization name",
+      "required": false
+    },
+    "REPO": {
+      "description": "Default Github repository name",
+      "required": false
+    }
+  }
+}
