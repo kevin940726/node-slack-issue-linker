@@ -1,0 +1,22 @@
+{
+  "name": "node-slack-issue-linker",
+  "version": "0.1.0",
+  "description": "Slack issue linker written in Node.js",
+  "main": "src/index.js",
+  "repository": "https://github.com/kevin940726/node-slack-issue-linker",
+  "author": "Kai Hao",
+  "license": "MIT",
+  "scripts": {
+    "start": "node -r dotenv/config src/index.js",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@17media/eslint-config-17media": "^1.0.2",
+    "@slack/client": "^3.9.0",
+    "babel-eslint": "^7.2.1",
+    "dotenv": "^4.0.0",
+    "eslint": "^3.19.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-react": "^6.10.3"
+  }
+}
