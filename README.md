@@ -1,5 +1,7 @@
 # node-slack-issue-linker
-:point_right: Give me the links of issues!
+:point_right: Give me the links of the issues!
+
+[![CircleCI](https://circleci.com/gh/kevin940726/node-slack-issue-linker.svg?style=svg)](https://circleci.com/gh/kevin940726/node-slack-issue-linker) [![Coverage Status](https://coveralls.io/repos/github/kevin940726/node-slack-issue-linker/badge.svg?branch=master)](https://coveralls.io/github/kevin940726/node-slack-issue-linker?branch=master)
 
 ## What ?
 
