@@ -4,8 +4,8 @@ const { API_TOKEN } = process.env;
 
 const web = new WebClient(API_TOKEN);
 
-const postMessage = (channel, message) => {
-  web.chat.postMessage(channel, message, {
+const postMessage = (channel, result) => {
+  web.chat.postMessage(channel, result, {
     parse: 'none',
     unfurl_links: true,
   });
