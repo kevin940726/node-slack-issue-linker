@@ -10,7 +10,8 @@
     "dev": "node -r dotenv/config src/index.js",
     "start": "node src/index.js",
     "lint": "eslint .",
-    "test": "jest"
+    "test": "jest",
+    "coveralls": "cat coverage/lcov.info | coveralls"
   },
   "dependencies": {
     "@17media/eslint-config-17media": "^1.0.2",
