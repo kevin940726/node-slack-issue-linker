@@ -6,6 +6,10 @@ machine:
   environment:
     PATH: "${PATH}:${HOME}/${CIRCLE_PROJECT_REPONAME}/node_modules/.bin"
 
+general:
+  artifacts:
+    - "coverage/lcov.info"
+
 dependencies:
   override:
     - yarn

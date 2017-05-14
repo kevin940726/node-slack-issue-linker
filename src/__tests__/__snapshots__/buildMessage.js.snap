@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should give default values 1`] = `"<https://github.com/owner/repo/issues/12|repo#12> :point_right: _https://github.com/owner/repo/issues/12_"`;
+
+exports[`should handle multiple matches 1`] = `
+"<https://github.com/owner/repo/issues/12|repo#12> :point_right: _https://github.com/owner/repo/issues/12_
+<https://github.com/owner/node-slack-issue-linker/issues/3|node-slack-issue-linker#3> :point_right: _https://github.com/owner/node-slack-issue-linker/issues/3_
+<https://github.com/kevin940726/node-slack-issue-linker/issues/6|kevin940726/node-slack-issue-linker#6> :point_right: _https://github.com/kevin940726/node-slack-issue-linker/issues/6_"
+`;
+
+exports[`should handle set HOST value 1`] = `"<https://gitlab.com/kevin940726/node-slack-issue-linker/issues/12|kevin940726/node-slack-issue-linker#12> :point_right: _https://gitlab.com/kevin940726/node-slack-issue-linker/issues/12_"`;
+
+exports[`should take match values 1`] = `"<https://github.com/kevin940726/node-slack-issue-linker/issues/12|kevin940726/node-slack-issue-linker#12> :point_right: _https://github.com/kevin940726/node-slack-issue-linker/issues/12_"`;

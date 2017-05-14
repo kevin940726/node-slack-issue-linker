@@ -2,7 +2,7 @@ const {
   OWNER,
   REPO,
   HOST,
-} = process.env;
+} = require('./loadEnv')();
 
 const BASE_URL = HOST === 'github' ? 'https://github.com' : HOST;
 

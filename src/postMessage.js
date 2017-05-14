@@ -1,6 +1,5 @@
 const { WebClient } = require('@slack/client');
-
-const { API_TOKEN } = process.env;
+const { API_TOKEN } = require('./loadEnv')();
 
 const web = new WebClient(API_TOKEN);
 
